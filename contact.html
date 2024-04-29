@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Санатории || Задать вопрос</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <script defer src="./js/burger.js"></script>
+    <script defer src="./js/validate.js"></script>
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet'>
+  </head>
+  <body>
+    <!-- header  -->
+    <header>
+      <nav class="navbar">
+        <div class="nav-center">
+          <div class="nav-header">
+            <a href="index.html" class="nav-logo">
+              <img src="./assets/logo.svg" alt="sanatoriy" />
+            </a>
+            <button class="nav-btn btn">
+              <i class="fas fa-align-justify"></i>
+            </button>
+          </div>
+          <div class="nav-links">
+            <a href="index.html" class="nav-link"> Главная </a>
+            <a href="about.html" class="nav-link"> О нас </a>
+            <a href="tags.html" class="nav-link"> Список санаториев </a>
+  
+            <div class="nav-link contact-link">
+              <a href="contact.html" class="btn"> Задать вопрос </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+      <!-- end of header -->
+    <main class="page">
+     <section class="contact-container">
+          <article class="contact-info">
+            <h3>Хотите связаться?</h3>
+            <p>
+              <strong>Наш контакты:</strong>
+            </p>
+            <p>
+              <strong>Email:</strong> maksimlevzikov2000@gmail.com <br>
+              <strong>Номер телефона:</strong> +375 (44) 723-07-41
+            </p>
+            <p>
+              Вы также можете оставить свои контактные данные на нашем сайте,
+              и наш менеджер свяжется с вами для уточнения деталей и бронирования.
+            </p>
+          </article>
+          <article>
+            <form class="form contact-form" id="contactForm" onsubmit="return validateForm()">
+              <div class="form-row">
+                <label for="name" class="form-label">Ваше имя</label>
+                <input type="text" name="name" id="name" class="form-input" required />
+              </div>
+              <div class="form-row">
+                <label for="email" class="form-label">Ваш email</label>
+                <input type="email" name="email" id="email" class="form-input" required />
+              </div>
+              <div class="form-row">
+                <label for="message" class="form-label">Сообщение</label>
+                <textarea name="message" id="message" class="form-textarea" required></textarea>
+              </div>
+              <button type="submit" class="btn btn-block">
+                Подтвердить
+              </button>
+            </form>
+          </article>
+        </section>
+     <!-- featured sanatoriys -->
+      <section class="sanatoriys-container">
+        <h5 class="featured-title">Посмотрите на это потрясающее зрелище!</h5>
+      <div class="sanatoriys-list">
+        <a href="description.html#1" class="sanatoriy">
+          <img
+            src="./assets/sanatoriy1.jpg"
+            class="img sanatoriy-img"
+            alt=""
+          />
+          <h5>Санаторий "Надежда"</h5>
+          <p>Вилейский район, Минская область</p>
+        </a>
+        <a href="description.html#2" class="sanatoriy">
+          <img
+            src="./assets/sanatoriy2.jpg"
+            class="img sanatoriy-img"
+            alt=""
+          />
+          <h5>Санаторий "Налибокская пуща"</h5>
+          <p>Воложинский сельсовет, Минская область</p>
+        </a>
+        <a href="description.html#3" class="sanatoriy">
+          <img
+            src="./assets/sanatoriy3.jpg"
+            class="img sanatoriy-img"
+            alt=""
+          />
+          <h5>Санаторий "Жемчужина"</h5>
+          <p>д. Боровка1, Лепельский район, Витебская область</p>
+        </a>
+      </div>
+    </section>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <div class="footer-navigation">
+        <h3>Меню</h3>
+        <ul>
+          <li><a href="index.html">Главная</a></li>
+          <li><a href="about.html">О нас</a></li>
+          <li><a href="tags.html">Список санатортев </a></li>
+        </ul>
+      </div>
+      <div class="footer-contact">
+        <h3>Контакты</h3>
+        <p>Email: maksimlevzikov2000@gmail.com</p>
+        <p>Номер телефона: +375 (44) 723-07-41</p>
+      </div>
+      <div class="footer-social">
+        <h3>Связаться?</h3>
+        <ul>
+          <li><a href="contact.html">Перейти</a></li>
+        </ul>
+      </div>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>

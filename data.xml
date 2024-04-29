@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<tags>
+    <tag>
+        <name>Надежда</name>
+        <description>1-ый санаторий</description>
+        <link>description.html#1</link>
+    </tag>
+    <tag>
+        <name>Налибокская пуща</name>
+        <description>2-ой санаторий</description>
+        <link>description.html#2</link>
+    </tag>
+    <tag>
+        <name>Жемчужина</name>
+        <description>3-ий санаторий</description>
+        <link>description.html#3</link>
+    </tag>
+    <tag>
+        <name>Зубрёнок</name>
+        <description>4-ый санаторий</description>
+        <link>description.html#4</link>
+    </tag>
+    <tag>
+        <name>Ждановичи</name>
+        <description>5-ый санаторий</description>
+        <link>description.html#5</link>
+    </tag>
+    <tag>
+        <name>Серебрянные ключи</name>
+        <description>6-ой санаторий</description>
+        <link>description.html#6</link>
+    </tag>
+</tags>
