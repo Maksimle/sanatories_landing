@@ -686,7 +686,6 @@ sanatoriy Template
 .food {
   border-bottom: 2px solid var(--grey-300);
   padding-bottom: 0.75rem;
-  color: var(--primary-500);
   text-transform: capitalize;
 }
 
